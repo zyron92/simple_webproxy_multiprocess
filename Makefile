@@ -55,7 +55,7 @@ run: webproxy
 
 .PHONY: compress
 compress: clean
-	tar -czvf source.tar.gz include/ obj/ src/ Makefile README.txt
+	tar -czvf source.tar.gz include/ obj/ src/ Makefile README.md
 
 ################################################################################
 
